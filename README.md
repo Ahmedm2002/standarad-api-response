@@ -10,7 +10,6 @@ A robust and scalable Node.js/Express backend template designed to provide stand
 - **MongoDB Integration:** Ready-to-use Mongoose setup for database interactions.
 - **Security:** Includes `bcryptjs` for password hashing, `jsonwebtoken` for auth, and `cors` for cross-origin resource sharing.
 - **Environment Configuration:** Uses `dotenv` for managing environment variables.
-- **AI Ready:** Pre-configured with `@google/genai` for easy integration of Google's Gemini AI.
 
 ## Project Structure
 
