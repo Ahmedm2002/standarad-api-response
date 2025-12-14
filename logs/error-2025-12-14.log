@@ -1,0 +1,19 @@
+
+    ============================================================================================
+    ============================================================================================
+                                      SERVER ERROR OCCURRED
+    ============================================================================================
+    ============================================================================================
+
+        Error Occured At: 2025-12-14T19:32:39.250Z,
+        Status Code: 500,
+        Url: /test-error,
+        Method: GET,
+        Request Body: undefined,
+        Params: undefined,
+        Query: undefined,
+        Ip: 127.0.0.1,
+        Request Headers : {"user-agent":"test-script"}
+
+        Stack: "Error: This is a test error for async logging verification\n    at file:///home/ahmedmujtaba/Development/Back%20Ends/standarad-api-response/test_logging.js:13:9\n    at ModuleJob.run (node:internal/modules/esm/module_job:343:25)\n    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:665:26)\n    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:117:5)" 
+      
