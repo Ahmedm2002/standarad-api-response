@@ -23,7 +23,6 @@ class API_RES {
       errorStack
         ? (this.errorStack = errorStack)
         : Error.captureStackTrace(this, this.constructor);
-      // Fire and forget, but catch errors to prevent unhandled rejections
       this.reportError().catch((err) =>
         console.error("Failed to log error:", err)
       );
@@ -43,10 +42,8 @@ class API_RES {
 
   async reportError() {
     try {
-      console.log(this.req?.originalUrl); // Log basic info to stdout
       const logsDir = path.join(process.cwd(), "logs");
 
-      // Async check and mkdir
       try {
         await fs.promises.access(logsDir);
       } catch {
